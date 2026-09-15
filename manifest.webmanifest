@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Jump Break",
-  "short_name": "Jump Break",
-  "description": "Прыгай выше. Перерыв в твоём ритме.",
+  "name": "Break Arcade",
+  "short_name": "Break Arcade",
+  "description": "Jump, Stack и Flappy. Перерыв в твоём ритме.",
   "lang": "ru",
   "start_url": "./",
   "scope": "./",

@@ -1,5 +1,5 @@
-self.__JUMP_VERSION = "9d5a2a204c039703";
-self.__JUMP_PRECACHE = ["./","assets/index-BydPT8Zx.js","assets/index-D2e4a2kS.css","favicon.svg","fonts/dela-gothic-one.ttf","fonts/OFL.txt","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable.png","index.html","manifest.webmanifest","media/candy-intro.mp4","media/candy-poster.jpg"];
+self.__JUMP_VERSION = "70f695136603cacd";
+self.__JUMP_PRECACHE = ["./","assets/index-BqLHK75q.js","assets/index-nDq2-Tm5.css","favicon.svg","fonts/dela-gothic-one.ttf","fonts/OFL.txt","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable.png","index.html","manifest.webmanifest","media/candy-intro.mp4","media/candy-poster.jpg"];
 const scope = new URL(self.registration.scope);
 const prefix = `jump-break:${scope.pathname}:`;
 const cacheName = prefix + self.__JUMP_VERSION;
