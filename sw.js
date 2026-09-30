@@ -1,4 +1,4 @@
-self.__JUMP_VERSION = "70f695136603cacd";
+self.__JUMP_VERSION = "c4da7c6c54810e5c";
 self.__JUMP_PRECACHE = ["./","assets/index-BqLHK75q.js","assets/index-nDq2-Tm5.css","favicon.svg","fonts/dela-gothic-one.ttf","fonts/OFL.txt","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable.png","index.html","manifest.webmanifest","media/candy-intro.mp4","media/candy-poster.jpg"];
 const scope = new URL(self.registration.scope);
 const prefix = `jump-break:${scope.pathname}:`;
@@ -7,7 +7,12 @@ const urls = self.__JUMP_PRECACHE.map((path) => new URL(path, scope).href);
 const allowed = new Set(urls);
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(cacheName).then((cache) => cache.addAll(urls)));
+  event.waitUntil(
+    caches
+      .open(cacheName)
+      .then((cache) => cache.addAll(urls))
+      .then(() => self.skipWaiting()),
+  );
 });
 
 self.addEventListener('activate', (event) => {
