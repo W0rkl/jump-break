@@ -1,14 +1,14 @@
 {
   "id": "./",
-  "name": "Break Arcade",
-  "short_name": "Break Arcade",
-  "description": "Jump, Stack и Flappy. Перерыв в твоём ритме.",
+  "name": "залип — jump, stack, flappy",
+  "short_name": "залип",
+  "description": "три объёмных мира для короткого перерыва. прыжки, башни, утёнок.",
   "lang": "ru",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffe529",
-  "theme_color": "#ffe529",
+  "background_color": "#0d0a14",
+  "theme_color": "#24141b",
   "icons": [
     {
       "src": "icons/icon-192.png",
